@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+	background-image: url("img/confetti.svg");
+	background-size: 768px;
+	background-repeat: repeat;
+	background-position: center center;
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-70%);
+}
+
+.popper,
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0;
+
+	text-align: center;
+}
+
+.popper {
+	font-size: 96px;
+	display: block;
+}
+
+h1 {
+	font-size: 96px;
+	font-weight: 800;
+	color: #A100CD;
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: 400;
+	color: #500066;
+}
+
+h3 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #500066;
+}
